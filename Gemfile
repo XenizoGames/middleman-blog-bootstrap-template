@@ -22,8 +22,6 @@ gem "nokogiri"
 # For feed.xml.builder/sitemap.xml.builder
 gem "builder", "~> 3.0"
 
-gem "nokogiri"
-
 gem 'tzinfo'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
