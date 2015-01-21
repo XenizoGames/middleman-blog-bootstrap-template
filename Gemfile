@@ -17,7 +17,16 @@ gem "slim", "~> 2.0.2"
 gem "redcarpet", "~> 3.1.1"
 
 # For blog summary
-gem "nokogiri", "~> 1.6.1"
+gem "nokogiri"
 
 # For feed.xml.builder/sitemap.xml.builder
 gem "builder", "~> 3.0"
+
+gem "nokogiri"
+
+gem 'tzinfo'
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+require 'rbconfig'
+gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
